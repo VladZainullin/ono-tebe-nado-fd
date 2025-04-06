@@ -13,10 +13,9 @@
 
 .navigation__item {
     list-style-type: none;
-}
-
-.navigation__marker {
-    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
 }
 
 .navigation__item_active {
