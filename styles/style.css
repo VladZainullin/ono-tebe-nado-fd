@@ -1,19 +1,35 @@
-.navigation__list {
+.header-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.navigation__item {
-    border-bottom: 1px solid;
-    list-style-type: circle;
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 13px;
 }
 
-.navigation__item--active {
+.navigation__item {
+    list-style-type: none;
+}
+
+.navigation__marker {
+    padding-right: 13px;
+}
+
+.navigation__item_active {
     list-style-type: none;
     border-bottom: none;
 }
 
 .navigation__link {
     text-decoration: none;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+    display: block;
 }
