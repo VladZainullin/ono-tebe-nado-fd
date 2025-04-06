@@ -3,59 +3,50 @@ header {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    flex-wrap: wrap;
     padding: 92px 50px 96px 50px;
-}
-
-.navigation {
     font-size: 18px;
 }
 
-.navigation__list {
+.header__links-list {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 13px;
+    gap: 26px
 }
 
-.navigation__item {
+.header__links-list-item {
+    list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 13px;
 }
 
-.navigation__item_active {
-    list-style-type: none;
-    border-bottom: none;
-}
-
-.navigation__link {
-    text-decoration: none;
-}
-
-.navigation__link_underline {
+.header__link {
     border-bottom: 1px solid;
 }
 
-.logo {
-    width: 148px;
-    height: 105px;
-    display: block;
-
-    justify-self: center;
+.header__link_active {
+    border-bottom: none;
 }
 
-.contracts {
-    width: 240px;
-    height: 98px;
+.header__logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header__address {
+    justify-self: end;
+}
+
+.address {
+    max-width: 240px;
     list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
     font-style: normal;
+    text-decoration: none;
+    line-height: 24px;
 }
 
 .phone-number {
