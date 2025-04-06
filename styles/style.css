@@ -1,4 +1,4 @@
-header {
+footer {
     background-color: beige;
 }
 
@@ -54,4 +54,46 @@ header {
 
 .email {
     text-decoration: none;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    padding: 0 50px 82px;
+    font-size: 18px;
+}
+
+.footer__menu-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.footer__menu-link {
+    border-bottom: 1px solid;
+}
+
+.footer__menu-link_active {
+    border-bottom: none;
+}
+
+.footer__social-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.footer__social-list-item {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__link {
+    border-bottom: 1px solid;
+}
+
+.footer__link_active {
+    border-bottom: none;
 }
