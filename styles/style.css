@@ -1,7 +1,17 @@
-.header-container {
+header {
+    background-color: beige;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+    padding: 92px 50px 96px 50px;
+}
+
+.navigation {
+    font-size: 18px;
 }
 
 .navigation__list {
@@ -27,8 +37,31 @@
     text-decoration: none;
 }
 
+.navigation__link_underline {
+    border-bottom: 1px solid;
+}
+
 .logo {
     width: 148px;
     height: 105px;
     display: block;
+
+    justify-self: center;
+}
+
+.contracts {
+    width: 240px;
+    height: 98px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.phone-number {
+    text-decoration: none;
+}
+
+.email {
+    text-decoration: none;
 }
