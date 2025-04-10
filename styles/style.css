@@ -54,6 +54,8 @@
 
 .cover {
     background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
     margin-bottom: 180px;
     position: relative;
     display: grid; /* Для z-index у h1 */
