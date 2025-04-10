@@ -120,6 +120,7 @@
 
 .lots {
     padding: 0 24px;
+    margin-bottom: 120px;
 }
 
 .lots__heading {
@@ -191,6 +192,19 @@
 .lots__look-more-link {
     text-decoration: none;
     border-bottom: 1px solid;
+}
+
+.about {
+    padding: 0 24px 0;
+    margin-bottom: 180px;
+}
+
+.about__logo {
+    background-color: black;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    display: flex;
 }
 
 .footer {
