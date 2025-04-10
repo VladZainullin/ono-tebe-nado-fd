@@ -155,6 +155,8 @@
     min-height: 596px;
     width: 334px;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_film {
