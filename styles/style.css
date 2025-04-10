@@ -61,6 +61,7 @@
     margin-bottom: 180px;
     position: relative;
     display: grid; /* Для z-index у h1 */
+    padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -78,11 +79,11 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     color: #FFF;
-    padding: 165px 50px 106px;
     z-index: 2;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
+    margin-bottom: 106px;
 }
 
 .aligned-text {
@@ -102,7 +103,6 @@
 }
 
 .cover__description {
-    padding: 0 50px 50px;
     color: #FFF;
     display: flex;
     justify-content: space-between;
@@ -212,12 +212,12 @@
 }
 
 .about {
-    padding: 0 24px 0;
-    margin-bottom: 180px;
+    margin: 0 24px 180px;
     display: grid;
     grid-template-columns: 334px 1fr;
     grid-template-rows: 240px 1fr;
     gap: 24px;
+    padding-top: 35px;
 }
 
 .about__logo {
@@ -225,12 +225,12 @@
     border-radius: 50%;
     width: 240px;
     height: 240px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     justify-self: center;
     grid-row-start: 1;
     grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__logo-image {
