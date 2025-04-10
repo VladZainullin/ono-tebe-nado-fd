@@ -213,6 +213,13 @@
 .about {
     padding: 0 24px 0;
     margin-bottom: 180px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: 240px 1fr;
+    gap: 24px;
+}
+
+.about__column {
 }
 
 .about__logo {
@@ -223,11 +230,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-self: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 .about__logo-image {
     width: 148px;
     height: 114px;
+}
+
+.about__title {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.about__text {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
 
 .footer {
