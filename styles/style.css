@@ -104,7 +104,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
-    letter-spacing: 0%;
     text-transform: uppercase;
     z-index: 2;
 }
@@ -113,7 +112,6 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 100%;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
     color: #FFF;
@@ -133,7 +131,6 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: 0;
     text-transform: uppercase;
     margin: 0 0 27px 40px;
 }
@@ -179,11 +176,9 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
-    letter-spacing: 0;
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-thickness: 0%;
     color: #FFF;
     z-index: 2;
 }
@@ -193,7 +188,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    letter-spacing: 0;
     color: #FFF;
     z-index: 2;
 }
@@ -247,7 +241,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0%;
 }
 
 .footer {
