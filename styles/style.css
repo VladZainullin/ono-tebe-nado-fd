@@ -46,10 +46,12 @@
 
 .phone-number {
     text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 .email {
     text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 .cover {
