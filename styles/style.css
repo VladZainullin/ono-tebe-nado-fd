@@ -70,7 +70,6 @@
 }
 
 .cover__title {
-    font-family: Raleway;
     font-weight: 700;
     font-size: 100px;
     line-height: 114.99999999999999%;
@@ -102,7 +101,6 @@
 }
 
 .cover__description-title {
-    font-family: Raleway;
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
@@ -112,7 +110,6 @@
 }
 
 .bet-button {
-    font-family: Raleway;
     font-weight: 500;
     font-size: 22px;
     line-height: 100%;
@@ -133,7 +130,6 @@
 }
 
 .lots__heading {
-    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -180,7 +176,6 @@
 
 .card__title {
     padding: 48px 40px 0;
-    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
@@ -195,7 +190,6 @@
 
 .card__text {
     padding: 0 40px 48px;
-    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
@@ -242,7 +236,6 @@
 }
 
 .about__title {
-    font-family: Raleway;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -251,7 +244,6 @@
 }
 
 .about__text {
-    font-family: Raleway;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
