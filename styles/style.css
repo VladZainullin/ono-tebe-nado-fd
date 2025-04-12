@@ -124,7 +124,6 @@
     color: #FFF;
     font-size: 22px;
     font-weight: 500;
-    line-height: 100%;
     padding: 12px 32px 11px 31px;
 
     text-align: center;
@@ -141,7 +140,6 @@
 .lots__heading {
     font-size: 40px;
     font-weight: 700;
-    line-height: 100%;
     margin: 0 0 27px 40px;
     text-transform: uppercase;
 }
@@ -242,7 +240,6 @@
     align-self: center;
     font-size: 40px;
     font-weight: 700;
-    line-height: 100%;
     text-transform: uppercase;
 }
 
