@@ -41,6 +41,9 @@
     line-height: 24px;
     list-style-type: none;
     max-width: 240px;
+}
+
+.underline-title {
     border-bottom: 1px solid;
     text-decoration: none;
 }
