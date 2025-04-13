@@ -207,7 +207,7 @@
 
 .about {
     display: grid;
-    gap: 24px;
+    column-gap: 24px;
     grid-template-columns: 334px 1fr;
     margin: 0 24px 180px;
     padding-top: 35px;
@@ -243,10 +243,14 @@
 }
 
 .about__text {
-    font-size: 1.25em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    grid-column: 2;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 24px;
-    grid-column: 2;
+    word-spacing: 1px;
 }
 
 .footer {
