@@ -156,6 +156,10 @@
     min-height: 596px;
 }
 
+.card-link {
+    text-decoration: none;
+}
+
 .card {
     background-position: center;
     background-size: cover;
