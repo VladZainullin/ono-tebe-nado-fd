@@ -41,15 +41,6 @@
     line-height: 24px;
     list-style-type: none;
     max-width: 240px;
-    text-decoration: none;
-}
-
-.phone-number {
-    border-bottom: 1px solid;
-    text-decoration: none;
-}
-
-.email {
     border-bottom: 1px solid;
     text-decoration: none;
 }
@@ -284,12 +275,4 @@
 .footer__social-list-item {
     height: 48px;
     width: 48px;
-}
-
-.footer__link {
-    border-bottom: 1px solid;
-}
-
-.footer__link_active {
-    border-bottom: none;
 }
