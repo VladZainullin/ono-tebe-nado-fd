@@ -198,11 +198,9 @@
 }
 
 .lots__look-more-link {
-    border-bottom: 1px solid;
     display: inline-block;
     font-size: 1.25em;
     margin: 30px 0 0 40px;
-    text-decoration: none;
 }
 
 .about {
